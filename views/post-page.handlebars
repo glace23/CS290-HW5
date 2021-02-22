@@ -1,0 +1,31 @@
+<h1>POST Request Recevied</h1>
+
+<table>
+<h4> URL Table</h4>
+ <tr>
+    <th> Name </th>
+    <th> Value</th>
+
+  {{#each dataList}}
+ </tr>
+    <td>{{this.name}}
+    <td>{{this.value}}
+ </tr>
+  {{/each}}
+
+</table>
+
+<table>
+<h4> Request Body Table</h4>
+ <tr>
+    <th> Name </th>
+    <th> Value</th>
+
+  {{#each bodyList}}
+ </tr>
+    <td>{{this.name}}
+    <td>{{this.value}}
+ </tr>
+  {{/each}}
+
+</table>
